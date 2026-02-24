@@ -1,0 +1,19 @@
+name: Training CI (Intentionally Broken)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reliability-lab:
+    runs-on: ubuntu-latest
+    env:
+      SERVICE_TIMEOUT_MS: not_a_number
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --upgrade pip && pip install -r requirements.txt
+      - run: pytest -q labs/lab5_ci_pipeline_break/tests/test_ci_failure.py
+      - run: node --test labs/lab4_api_failure/tests/test_api_failure.js

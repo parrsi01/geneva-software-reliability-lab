@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Runtime artifacts
+progress.log
+.course_state/
+artifacts/
+*.log
+completion_certificate_*.md
+
+# VS Code
+.vscode/
+.DS_Store

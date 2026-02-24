@@ -1,0 +1,15 @@
+{
+  "name": "geneva-software-reliability-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional junior software reliability debugging lab",
+  "type": "commonjs",
+  "scripts": {
+    "test:api-lab": "node --test labs/lab4_api_failure/tests/test_api_failure.js",
+    "test:node-shared": "node --test src/broken_node_api/test_server_contract.js",
+    "check:node": "node --check labs/lab4_api_failure/app/broken_node_api.js && node --check src/broken_node_api/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

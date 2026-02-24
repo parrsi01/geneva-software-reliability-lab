@@ -1,0 +1,5 @@
+from labs.lab6_container_crashloop.tests.test_container_crashloop import test_container_entrypoint_contract
+
+
+def test_lab6_container_crashloop_wrapper(tmp_path):
+    test_container_entrypoint_contract(tmp_path)
