@@ -3,10 +3,10 @@ PYTHON ?= python3
 VENV ?= .venv
 ACTIVATE = source $(VENV)/bin/activate
 
-.PHONY: help setup test node-test lint run reset tree
+.PHONY: help setup test node-test lint run reset tree validate validate-quick pycheck
 
 help:
-	@echo "Targets: setup, test, node-test, lint, run, reset, tree"
+	@echo "Targets: setup, test, node-test, lint, pycheck, validate, validate-quick, run, reset, tree"
 
 setup:
 	$(PYTHON) -m venv $(VENV)
@@ -21,6 +21,16 @@ node-test:
 
 lint:
 	@bash -n run_course.sh
+	@bash -n validate_repo.sh
+
+pycheck:
+	@find src tests labs -type f -name '*.py' -exec $(PYTHON) -m py_compile {} \;
+
+validate:
+	@./validate_repo.sh
+
+validate-quick:
+	@./validate_repo.sh --quick
 
 run:
 	@./run_course.sh --interactive
