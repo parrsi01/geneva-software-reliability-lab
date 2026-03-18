@@ -1,14 +1,14 @@
 # Geneva Software Reliability Lab
 
-A production-style Junior Software Debugging & Reliability Engineering training repository aligned to Geneva-market roles (CERN contractors, UN agency IT support, IATA-style operations, and enterprise SaaS support environments).
+A production-style Junior Software Debugging & Reliability Engineering training repository aligned to Geneva-market roles (enterprise contractors, international organization IT support, transport and logistics operations, and enterprise SaaS support environments).
 
 This is a professional debugging lab, not a hobby course. The content is designed for systematic incident response, reproducibility, and root-cause analysis under operational constraints.
 
 ## Role Alignment (Geneva)
 
-- CERN contractor support: runtime diagnostics, Linux debugging, service logs, failure reproduction
-- UN / NGO agency IT support: incident triage, SLA communication, environment drift detection
-- IATA / transport enterprise ops: API failures, CI breaks, container crash loops, observability basics
+- Enterprise contractor support: runtime diagnostics, Linux debugging, service logs, failure reproduction
+- International organization IT support: incident triage, SLA communication, environment drift detection
+- Transport and logistics enterprise operations: API failures, CI breaks, container crash loops, observability basics
 - SaaS reliability teams: concurrency bugs, memory leaks, on-call investigation
 
 ## LinkedIn Job Skill Mapping

@@ -7,8 +7,8 @@ Systematic debugging is reproducible, evidence-driven hypothesis testing.
 Professional debugging prioritizes safe mitigation, evidence preservation, and verifiable root cause confirmation.
 
 ## Geneva Role Alignment
-- CERN contractor support: mixed-stack runtime diagnosis
-- UN agency IT support: ticket-driven triage and RCA communication
+- Enterprise contractor support: mixed-stack runtime diagnosis
+- International organization IT support: ticket-driven triage and RCA communication
 - Enterprise SaaS: observability + CI/CD + container debugging
 
 ## LinkedIn Skill Mapping

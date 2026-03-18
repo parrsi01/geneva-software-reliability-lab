@@ -7,7 +7,7 @@ Bash debugging means making shell execution visible and deterministic so you can
 CI, deployment, and operational automation often fail in shell. Fast diagnosis lowers MTTR and reduces risky hotfixes.
 
 ## Geneva IT Role Alignment
-Relevant for CERN/UN contractor support, enterprise operations, and junior SRE/DevOps work.
+Relevant for enterprise contractor support, international organization IT environments, and junior SRE/DevOps work.
 
 ## LinkedIn Skill Mapping
 - Bash
